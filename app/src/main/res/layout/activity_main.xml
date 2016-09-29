@@ -22,20 +22,23 @@
             android:layout_height="wrap_content"
             android:text="@string/str_butline"
             android:textAppearance="?android:textAppearanceLarge"
-            android:layout_margin="10dp"/>
+            android:layout_margin="10dp"
+            android:onClick="drawShape"/>
         <Button
             android:id="@+id/but_rect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/str_butrect"
             android:textAppearance="?android:textAppearanceLarge"
-            android:layout_margin="10dp"/>
+            android:layout_margin="10dp"
+            android:onClick="drawShape"/>
         <Button
             android:id="@+id/but_cir"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/str_butcir"
-            android:textAppearance="?android:textAppearanceLarge"/>
+            android:textAppearance="?android:textAppearanceLarge"
+            android:onClick="drawShape"/>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/linear_view"
